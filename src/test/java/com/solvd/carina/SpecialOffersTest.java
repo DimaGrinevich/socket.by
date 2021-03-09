@@ -21,7 +21,7 @@ public class SpecialOffersTest extends AbstractTest {
 
         getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         DistinctCompanyGoodsBasePage distinctCompanyGoodsBasePage =
-                monthDiscountsBasePage.toDistinctCompanyDiscountPage("HyperX");
+                monthDiscountsBasePage.toDistinctCompanyDiscountPage("Steelseries");
 
         List<String> titles = distinctCompanyGoodsBasePage.getProductList().getTitles();
 
